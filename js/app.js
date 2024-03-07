@@ -12,6 +12,7 @@ function comprar() {
             alert(`Quantidade de ingresso indisponivel para a pista`);
         } else {
             quantidadePista -= quantidadeIngresso;
+            alert('Compra realizada com sucesso');
         }   
     }    
     
@@ -20,6 +21,7 @@ function comprar() {
             alert(`Quantidade de ingresso indisponivel para a cadeira superior`);
         } else {
             quantidadeSuperior -= quantidadeIngresso;
+            alert('Compra realizada com sucesso');
         }   
     }    
     
@@ -28,6 +30,7 @@ function comprar() {
             alert(`Quantidade de ingresso indisponivel para a cadeira inferior`);
         } else {
             quantidadeInferior -= quantidadeIngresso;
+            alert('Compra realizada com sucesso');
         }   
     }    
 
